@@ -7,9 +7,15 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Projeto">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+           Title="Sobre"
+           ContentTemplate="{DataTemplate local:AboutPage}"
+           Route="AboutPage" />
 
+        <ShellContent
+            Title="Anotações"
+            ContentTemplate="{DataTemplate local:NotePage}"
+            Route="NotePage" />
+    </TabBar>
 </Shell>
