@@ -7,8 +7,8 @@ public partial class AboutPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void LearnMore_Clicked(object sender, EventArgs e)
+	private async void LearnMore_Clicked(object sender, EventArgs e)
 	{
-
+		await Launcher.async("http://www.google.com.br");
 	}
 }
