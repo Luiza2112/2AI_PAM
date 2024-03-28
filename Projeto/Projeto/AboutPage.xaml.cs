@@ -9,6 +9,7 @@ public partial class AboutPage : ContentPage
 
 	private async void LearnMore_Clicked(object sender, EventArgs e)
 	{
-		await Launcher.async("http://www.google.com.br");
+		//Método assíncrono que abnre um recurso (URI)
+		await Launcher.OpenAsync("http://www.google.com.br");
 	}
 }

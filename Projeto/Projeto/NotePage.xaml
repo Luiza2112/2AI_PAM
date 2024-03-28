@@ -8,13 +8,13 @@
                 SemanticProperties.Description="Caixa de texto para anotação"
                 x:Name="NoteEditor"
             />
-        
+        <Label></Label>
         <Button Text="Salvar"
                 SemanticProperties.Description="Botão para salvar"
                 x:Name="SaveButton"
                 Clicked="SaveButton_Clicked"
             />
-        
+        <Label></Label>
         <Button Text="Deletar"
                 SemanticProperties.Description="Botão para deletar"
                 x:Name="DeleteButton"
